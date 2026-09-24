@@ -1,0 +1,12 @@
+/Users/jingxuan/Works/DotnetDemo/CoreBase/bin/Debug/net10.0/CoreBase.deps.json
+/Users/jingxuan/Works/DotnetDemo/CoreBase/bin/Debug/net10.0/CoreBase.dll
+/Users/jingxuan/Works/DotnetDemo/CoreBase/bin/Debug/net10.0/CoreBase.pdb
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/CoreBase.csproj.AssemblyReference.cache
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/CoreBase.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/CoreBase.AssemblyInfoInputs.cache
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/CoreBase.AssemblyInfo.cs
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/CoreBase.csproj.CoreCompileInputs.cache
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/CoreBase.dll
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/refint/CoreBase.dll
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/CoreBase.pdb
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/ref/CoreBase.dll
