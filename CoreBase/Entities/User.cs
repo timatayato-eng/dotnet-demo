@@ -11,5 +11,4 @@ public class User
   public string? Address { get; set; }
   public decimal? Income { get; set; }
   public string? Occupation { get; set; }
-  public int? EmployerId { get; set; }
 }

@@ -1,6 +1,6 @@
 # DotnetDemo
 
-REST API ด้วย ASP.NET Core (.NET 10) และ PostgreSQL ใช้ Entity Framework Core สำหรับฐานข้อมูล มีชุดข้อมูลตัวอย่างสำหรับฝึก query
+REST API ด้วย ASP.NET Core (.NET 10) และ PostgreSQL ใช้ Entity Framework Core สำหรับฐานข้อมูล มีข้อมูลผู้ใช้ตัวอย่าง 50 คน
 
 ## โครงสร้าง
 
@@ -77,15 +77,8 @@ curl -X POST http://localhost:5062/user \
 
 ## ข้อมูลตัวอย่าง
 
-| ตาราง | จำนวน |
-| --- | --- |
-| Users | 50 |
-| Employers | 200 |
-| Customers | 200 |
-| Products | 40 |
-| Orders | 400 |
-| OrderItems | ประมาณ 1,000 |
+ตาราง `Users` มี 50 แถว อีเมล `user01@demo.com` ถึง `user50@demo.com`
 
-ผู้ใช้ตัวอย่างใช้อีเมล `user01@demo.com` ถึง `user50@demo.com` และรหัสผ่าน `Pass123!`
+คนที่ 1 คือ Huang บทบาท `super admin` รหัสผ่าน `123` คนที่เหลือรหัสผ่าน `Pass123!`
 
-ถ้าจำนวนแถวไม่ตรงชุดนี้ seed จะล้างตารางแล้วใส่ข้อมูลใหม่
+ถ้าจำนวนแถวไม่ใช่ 50 seed จะล้างตารางแล้วใส่ข้อมูลใหม่

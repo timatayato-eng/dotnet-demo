@@ -10,3 +10,4 @@
 /Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/refint/CoreBase.dll
 /Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/CoreBase.pdb
 /Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/ref/CoreBase.dll
+/Users/jingxuan/Works/DotnetDemo/CoreBase/obj/Debug/net10.0/CoreBase.sourcelink.json

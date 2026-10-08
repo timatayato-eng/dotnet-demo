@@ -24,6 +24,14 @@ public class UserService(UserDbContext dbContext)
     return user is null ? null : ToModel(user);
   }
 
+  public async Task<UserModel?> Login(string email, string password)
+  {
+    var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == email);
+    if (user is null || string.IsNullOrEmpty(user.Password)) return null;
+    if (!PasswordHelper.Verify(password, user.Password)) return null;
+    return ToModel(user);
+  }
+
   public async Task<UserModel> Save(UserSaveReq form)
   {
     if (string.IsNullOrWhiteSpace(form.Password))

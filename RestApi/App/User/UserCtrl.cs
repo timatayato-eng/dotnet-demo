@@ -25,6 +25,17 @@ public class UserCtrl(UserService service) : ControllerBase
     return user;
   }
 
+  [HttpPost("login")]
+  public async Task<ActionResult<UserModel>> Login([FromBody] UserLoginReq form)
+  {
+    if (string.IsNullOrWhiteSpace(form.Email) || string.IsNullOrWhiteSpace(form.Password))
+      return BadRequest("Email and password are required.");
+
+    var user = await _service.Login(form.Email.Trim(), form.Password);
+    if (user is null) return Unauthorized();
+    return user;
+  }
+
   [HttpPost]
   public async Task<IActionResult> Save([FromBody] UserSaveReq form)
   {
